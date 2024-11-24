@@ -34,7 +34,7 @@ You can:
 - Contact us with privacy concerns
 
 ## 4. Contact
-For privacy concerns, contact: [info.vinverify@google.com]
+For privacy concerns, contact: [info.vinverify@gmail.com]
 
 ## 5. Changes
 We may update this policy. Please review periodically.
