@@ -25,6 +25,7 @@ For users who choose to remove ads:
 - To display relevant advertisements
 - To process in-app purchases ($1.99 to remove ads)
 - To improve app functionality
+- Vin Verify does NOT resell your data
 
 ## 3. Your Rights
 You can:
