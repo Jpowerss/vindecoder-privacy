@@ -16,7 +16,6 @@ For users who Purchase App
 
 ## 2. How We Use Information
 - To decode VIN numbers
-- To display relevant advertisements
 - To process in-app purchases
 - To improve app functionality
 - Vin Verify does NOT resell your data
