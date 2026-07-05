@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy policy for VIN Verify — vehicle information lookup app for iOS. No data collected, no tracking, no third-party SDKs.">
+    <meta name="description" content="Privacy policy for VIN Verify — vehicle information lookup app for iOS. No ads, no tracking, private iCloud storage, and limited crash diagnostics.">
     <title>Privacy Policy — VIN Verify</title>
     <style>
         :root {
@@ -369,8 +369,8 @@
             Privacy First
         </div>
         <h1>Privacy Policy</h1>
-        <p class="hero-subtitle">VIN Verify is built so the developer never sees your data — because the developer has no servers to store it on.</p>
-        <p class="hero-meta">Last Updated: April 2026</p>
+        <p class="hero-subtitle">VIN Verify is built to keep the vehicles, inspections, notes, and photos you create on your device and in your private iCloud.</p>
+        <p class="hero-meta">Last Updated: July 2026</p>
     </div>
 </header>
 
@@ -378,25 +378,29 @@
 
     <div class="tldr">
         <span class="tldr-label">In Plain English</span>
-        <p>VIN Verify is a vehicle information lookup tool. The developer has <strong>no servers</strong> and <strong>collects no data from this app</strong>. Your garage, inspections, maintenance records, and photos stay on your device and in your own iCloud private database. Vehicle lookups go directly from your device to public third-party services that you choose to query. No tracking, no analytics, no advertising, no third-party SDKs.</p>
+        <p>VIN Verify is a vehicle information lookup tool. The garage, inspections, maintenance records, and photos you create stay on your device and sync only through your own private iCloud, which the developer cannot access. Vehicle lookups you request may connect your device to public third-party data services. To keep the app reliable, limited crash and diagnostic data may be collected through a third-party diagnostics provider. This diagnostic data is not used to advertise to you or track you across other companies' apps or websites. Analytics collection is turned off, we do not sell your data, and the app does not require an account.</p>
     </div>
 
     <section class="card">
         <h2><span class="num">1</span>What We Do <em>Not</em> Do</h2>
         <ul class="checklist">
-            <li><strong>We do not collect any data</strong> from this app</li>
-            <li><strong>We do not operate any servers</strong> that receive your data</li>
-            <li><strong>We do not use any analytics</strong> — no Firebase, Google Analytics, Mixpanel, or similar</li>
-            <li><strong>We do not use any crash-reporting SDKs</strong> — no Crashlytics, Sentry, or similar</li>
-            <li><strong>We do not display any advertising</strong> or use ad networks</li>
-            <li><strong>We do not track you</strong> across apps or websites</li>
-            <li><strong>We do not share or sell</strong> any data to third parties — we have no data to share or sell</li>
+            <li><strong>We do not display advertising</strong> or use ad networks</li>
+            <li><strong>We do not track you</strong> across other companies' apps or websites</li>
+            <li><strong>We do not sell your personal data</strong> or share it for advertising</li>
             <li><strong>We do not require an account</strong> to use the app</li>
+            <li><strong>We do not use analytics to build a profile of you</strong> — analytics collection is turned off in this version</li>
         </ul>
     </section>
 
     <section class="card">
-        <h2><span class="num">2</span>What Stays on Your Device</h2>
+        <h2><span class="num">2</span>Crash &amp; Diagnostic Data</h2>
+        <p>To keep the app stable, VIN Verify may collect crash reports and basic technical diagnostic information through a third-party diagnostics provider when something goes wrong. This can include a device or installation identifier and technical details about the problem.</p>
+        <p>This information is used only to find and fix bugs. It is <strong>not linked to your name or account, not used for advertising, and not used to track you</strong> across other companies' apps or websites.</p>
+        <p>We configure our tools to exclude the content you create, including VINs, license plates, customer details, notes, photos, signatures, and precise location, from crash and diagnostic reports.</p>
+    </section>
+
+    <section class="card">
+        <h2><span class="num">3</span>What Stays on Your Device</h2>
         <p>The following data is stored on your device. When you are signed into iCloud, it syncs to your own iCloud private database, which only you can access:</p>
         <ul class="checklist">
             <li>Your saved garage of vehicles</li>
@@ -411,13 +415,13 @@
     </section>
 
     <section class="card">
-        <h2><span class="num">3</span>External Lookups Initiated by You</h2>
-        <p>When you use features in the app, your device may make HTTPS requests directly to third-party services for public vehicle data. <strong>These requests do not pass through any server the developer operates.</strong></p>
+        <h2><span class="num">4</span>External Lookups Initiated by You</h2>
+        <p>When you use lookup features in the app, your device may make HTTPS requests to public third-party data services or supporting app services for vehicle-related information. These requests are made only when you use the related feature.</p>
         <table>
             <thead>
                 <tr>
                     <th>Feature</th>
-                    <th>Data sent to the third-party service</th>
+                    <th>Data sent to provide the feature</th>
                 </tr>
             </thead>
             <tbody>
@@ -427,39 +431,39 @@
                 </tr>
                 <tr>
                     <td data-label="Feature"><strong>Recall lookup</strong></td>
-                    <td data-label="Data sent">Year, make, model</td>
+                    <td data-label="Data sent">Year, make, model, and other vehicle details needed for the lookup</td>
                 </tr>
                 <tr>
                     <td data-label="Feature"><strong>Crash test ratings</strong></td>
-                    <td data-label="Data sent">Year, make, model</td>
+                    <td data-label="Data sent">Year, make, model, and other vehicle details needed for the lookup</td>
                 </tr>
                 <tr>
                     <td data-label="Feature"><strong>Owner complaints</strong></td>
-                    <td data-label="Data sent">Year, make, model</td>
+                    <td data-label="Data sent">Year, make, model, and other vehicle details needed for the lookup</td>
                 </tr>
                 <tr>
                     <td data-label="Feature"><strong>Fuel economy</strong></td>
-                    <td data-label="Data sent">Year, make, model</td>
+                    <td data-label="Data sent">Year, make, model, and other vehicle details needed for the lookup</td>
                 </tr>
                 <tr>
                     <td data-label="Feature"><strong>Live gas prices</strong></td>
-                    <td data-label="Data sent">None — fetches public national-average data</td>
+                    <td data-label="Data sent">Public fuel-price data requested by the app</td>
                 </tr>
                 <tr>
                     <td data-label="Feature"><strong>EV charging stations</strong></td>
-                    <td data-label="Data sent">Your approximate location, only when you choose to look up nearby chargers</td>
+                    <td data-label="Data sent">Your device's location, only when you choose to look up nearby chargers</td>
                 </tr>
                 <tr>
                     <td data-label="Feature"><strong>Vehicle thumbnail images</strong></td>
-                    <td data-label="Data sent">Year, make, model</td>
+                    <td data-label="Data sent">Year, make, model, and other vehicle details needed to find a matching image</td>
                 </tr>
             </tbody>
         </table>
-        <p style="margin-top: 16px; font-size: 14px; color: var(--color-text-secondary);">These services are operated by independent third parties — including public agencies and public-data registries — under their own privacy policies. The developer has no access to or control over how those third parties handle requests they receive.</p>
+        <p style="margin-top: 16px; font-size: 14px; color: var(--color-text-secondary);">These services are operated by independent third parties or supporting app services under their own privacy practices. The app does not use these lookups to track you across other companies' apps or websites.</p>
     </section>
 
     <section class="card">
-        <h2><span class="num">4</span>Permissions the App Requests</h2>
+        <h2><span class="num">5</span>Permissions the App Requests</h2>
         <table>
             <thead>
                 <tr>
@@ -471,8 +475,8 @@
             <tbody>
                 <tr>
                     <td data-label="Permission"><strong>Camera</strong></td>
-                    <td data-label="Why">To scan VIN barcodes or text from a vehicle</td>
-                    <td data-label="When asked">Only when you tap a "scan" button</td>
+                    <td data-label="Why">To scan VIN barcodes, license plates, or text from a vehicle</td>
+                    <td data-label="When asked">Only when you tap a scan button</td>
                 </tr>
                 <tr>
                     <td data-label="Permission"><strong>Photo Library</strong></td>
@@ -482,31 +486,41 @@
                 <tr>
                     <td data-label="Permission"><strong>Location When In Use</strong></td>
                     <td data-label="Why">To find EV charging stations near you for electric vehicles in your garage</td>
-                    <td data-label="When asked">Only when you view an electric vehicle's detail page and use the charging stations feature</td>
+                    <td data-label="When asked">Only when you use the charging stations feature</td>
+                </tr>
+                <tr>
+                    <td data-label="Permission"><strong>Microphone</strong></td>
+                    <td data-label="Why">To let you describe a vehicle concern or service note by voice</td>
+                    <td data-label="When asked">Only when you start a voice input feature</td>
+                </tr>
+                <tr>
+                    <td data-label="Permission"><strong>Speech Recognition</strong></td>
+                    <td data-label="Why">To turn your spoken vehicle description into text</td>
+                    <td data-label="When asked">Only when you start a voice input feature</td>
                 </tr>
             </tbody>
         </table>
-        <p style="margin-top: 16px; font-size: 14px; color: var(--color-text-secondary);">Camera and photo data are processed entirely on-device. Image data never leaves your device.</p>
+        <p style="margin-top: 16px; font-size: 14px; color: var(--color-text-secondary);">Camera, photo, and voice input are processed on your device. Location is used only when you choose to look up nearby EV charging stations.</p>
     </section>
 
     <section class="card">
-        <h2><span class="num">5</span>Purchases</h2>
-        <p>In-app purchases (subscriptions and one-time purchases) are handled entirely by Apple's StoreKit framework. The developer receives only an entitlement signal — whether you have an active subscription or have completed a one-time purchase. The developer does not see your name, email, payment information, or any other Apple ID detail.</p>
-        <p>Apple's privacy policy applies to purchase data: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></p>
+        <h2><span class="num">6</span>Purchases</h2>
+        <p>In-app purchases and subscriptions are processed by Apple's in-app purchase system. The developer receives only the purchase status needed to unlock paid features, such as whether you have an active subscription or completed one-time purchase.</p>
+        <p>The developer does not receive your Apple ID password, payment card information, or full payment details. Apple's privacy policy applies to purchase data: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></p>
     </section>
 
     <section class="card">
-        <h2><span class="num">6</span>Children's Privacy</h2>
-        <p>The app is not directed at children under 13. The developer does not knowingly receive any data from anyone, adult or minor.</p>
+        <h2><span class="num">7</span>Children's Privacy</h2>
+        <p>The app is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
     </section>
 
     <section class="card">
-        <h2><span class="num">7</span>Changes to This Policy</h2>
+        <h2><span class="num">8</span>Changes to This Policy</h2>
         <p>This policy may be updated periodically to reflect new features or changes to data handling. The "Last Updated" date at the top of this page reflects the most recent revision. Material changes will be noted in the App Store release notes for the next version.</p>
     </section>
 
     <section class="card">
-        <h2><span class="num">8</span>Contact</h2>
+        <h2><span class="num">9</span>Contact</h2>
         <p>For privacy questions or concerns, get in touch:</p>
         <a href="mailto:info.vinverify@gmail.com" class="contact-button">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
